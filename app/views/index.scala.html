@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>gmaps.js demo</title>
+  <link rel='stylesheet' href='@routes.WebJarAssets.at(WebJarAssets.locate("bootstrap.min.css"))'>
+  <link rel='stylesheet' href='@routes.WebJarAssets.at(WebJarAssets.locate("bootstrap-theme.min.css"))'>
+  <link rel='stylesheet' href='@routes.WebJarAssets.at(WebJarAssets.locate("jquery-ui.min.css"))'>
+  <link rel='stylesheet' href='@routes.WebJarAssets.at(WebJarAssets.locate("jquery-ui.structure.min.css"))'>
+  <link rel='stylesheet' href='@routes.WebJarAssets.at(WebJarAssets.locate("jquery-ui.theme.min.css"))'>
+  <script type="text/javascript" src="@routes.WebJarAssets.at(WebJarAssets.locate("jquery.min.js"))"></script>
+  <script type="text/javascript" src="@routes.WebJarAssets.at(WebJarAssets.locate("jquery-ui.min.js"))"></script>
+  <script type="text/javascript" src="@routes.WebJarAssets.at(WebJarAssets.locate("bootstrap.min.js"))"></script>
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+  <script type="text/javascript" src="@routes.Assets.versioned("javascripts/gmaps.min.js")"></script>
+  <script type="text/javascript" src="@routes.Assets.versioned("javascripts/mygmaps.js")"></script>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+  <style type="text/css">
+    #map {
+	  width:  600px;
+      height: 500px;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <div class="btn-group" role="group" aria-label="www">
+    <button id="marker1" type="button" class="btn btn-default">marker1 hide/show</button>
+    <button id="marker2" type="button" class="btn btn-default">marker2 hide/show</button>
+  </div>
+</body>
+</html>
